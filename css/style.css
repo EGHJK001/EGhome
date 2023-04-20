@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+a {
+    color: rgb(255, 60, 0);
+}
+
+h1 {
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 5px solid cadetblue;
+    background-color: green;
+    color: white;
+    font-size: 300%;
+    text-align: center;
+    line-height: 1;
+}
+
+h2 {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted rgb(76, 117, 14);
+    border-left: 10px solid rgb(109, 173, 12);
+    color: cadetblue;
+}
+
+body {
+    background-color: rgb(255, 254, 167)
+}
