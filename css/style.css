@@ -1,7 +1,12 @@
 @charset "utf-8";
 
 a {
-    color: rgb(255, 60, 0);
+    color: rgb(255, 0, 0);
+}
+
+a:hover {
+    color: rgb(160, 43, 43);
+    text-decoration: none;
 }
 
 h1 {
@@ -26,4 +31,56 @@ h2 {
 
 body {
     background-color: rgb(255, 254, 167)
+}
+
+#contents {
+    margin: 40px;
+    padding: 40px 80px;
+    border: 1px solid rgb(255, 78, 78);
+    background-color: white;
+}
+
+.more {
+    text-align: right;
+}
+
+.more::after {
+    margin-left: 3px;
+    vertical-align: middle;
+}
+
+.h {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted rgb(76, 117, 14);
+    border-left: 10px solid rgb(109, 173, 12);
+    color: rgb(9, 173, 36);
+}
+
+.h-sub span {
+    font-weight: normal;
+}
+
+section+section {
+    margin-top: 80px;
+}
+
+#contents>section+section {
+    margin-top: 80px;
+}
+
+header,
+nav,
+footer {
+    text-align: center;
+}
+
+a[target="_blank"]::after {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+a[target="mailto:"]::after {
+    margin-left: 5px;
+    vertical-align: middle;
 }
