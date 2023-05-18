@@ -57,7 +57,7 @@ body {
 }
 
 #contents {
-    width: 960px;
+    width: 798px;
     margin: 40px auto;
     padding: 40px 80px;
     border: 1px solid rgb(255, 78, 78);
@@ -126,14 +126,10 @@ img {
     height: 400px;
 }
 
-.photo {
-    border-radius: 50%;
-    box-shadow: 0px 0px 10px black;
-}
 
 .menu li {
     list-style-type: none;
-    display: inline;
+    display: inline-block;
     width: 180px;
     margin: 0 10px;
 }
@@ -149,4 +145,30 @@ img {
 
 .menu a:hover {
     background: #90ddbb;
+}
+
+.img-round {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.imgL {
+    float: left;
+    margin-right: 20px;
+}
+
+.imgR {
+    float: right;
+    margin-left: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
 }
